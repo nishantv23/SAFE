@@ -1,0 +1,11 @@
+spawn ssh sdn@192.168.9.9
+expect "Password: "
+send "SDN123\r"
+expect "#"
+send "term mon\r"
+
+while { 1 } {
+   expect "#"
+   sleep 2
+   send "\r"
+}

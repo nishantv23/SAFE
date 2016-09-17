@@ -1,0 +1,11 @@
+{
+"mac_port_authenticated":{
+    "00:00:00:00:00:02": null, 
+    "00:00:00:00:00:01": null
+},
+"mac_port_unauthenticated":{},
+"mac_to_slice":{
+    "00:00:00:00:00:02": 2, 
+    "00:00:00:00:00:01": 2
+}
+}
